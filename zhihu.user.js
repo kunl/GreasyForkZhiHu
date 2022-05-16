@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         知乎 关闭登录提示
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  知乎登录弹窗处理
 // @author       忆年
 // @match        https://zhuanlan.zhihu.com/*
@@ -14,7 +14,5 @@
     'use strict';
     setTimeout(() => {
         document.querySelector('.Modal-closeButton').click()
-    }, 300)
-
-    // Your code here...
+    }, 200)
 })();
