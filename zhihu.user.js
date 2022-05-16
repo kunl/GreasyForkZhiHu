@@ -14,5 +14,5 @@
     'use strict';
     setTimeout(() => {
         document.querySelector('.Modal-closeButton').click()
-    }, 200)
+    }, 350)
 })();
