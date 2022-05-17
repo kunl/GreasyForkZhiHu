@@ -12,7 +12,15 @@
 
 (function() {
     'use strict';
+    
+    const css = `
+    .signFlowModal,.Modal-wrapper.Modal-enter-done {display:none;transition:none}
+    `;
+
+    const style = document.createElement('style')
+    style.innerHTML = css
+    document.head.append(style)
     setTimeout(() => {
         document.querySelector('.Modal-closeButton').click()
-    }, 350)
+    }, 290)
 })();
