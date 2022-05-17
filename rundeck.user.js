@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  rundeck 样式定制，隐藏其他信息
 // @author       忆年
-// @match        https://deploy.ops.**.com.cn/**
+// @match        https://**.chanjet.com.cn/**
 // @icon         https://www.google.com/s2/favicons?sz=64
 // @grant        none
 // @license      none
