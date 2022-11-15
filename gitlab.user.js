@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         gitlab 活动时间
+// @home         https://github.com/kunl/tampermonkey-scripts
 // @namespace    https://bbs.tampermonkey.net.cn/
 // @version      0.1.0
 // @description  try to take over the world!
